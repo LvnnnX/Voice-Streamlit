@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_page_config(page_title='Voice Recognition Machine Learning', page_icon='🎤', initial_sidebar_state='auto')
+
 def clear_background():
     st.markdown(
     """
@@ -75,6 +77,6 @@ st.image('https://www.altexsoft.com/media/2022/05/word-image.jpeg', use_column_w
 st.header('Model Building')
 st.subheader('Convolutional Neural Network (CNN)')
 st.write('Convolutional neural networks are at the forefront of computer vision in healthcare and various other sectors. They are frequently considered the ideal option for image recognition tasks. The effectiveness of CNN architecture in processing spectrograms further reinforces this assertion.')
-st.image('https://www.researchgate.net/publication/330106889/figure/fig1/AS:710963951063040@1546518423301/Architecture-of-a-Convolutional-Neural-Network-CNN-The-traditional-CNN-structure-is.png', use_column_width=True, caption='Source: ResearchGate')
+st.image('https://www.researchgate.net/publication/330106889/figure/fig1/AS:710963951063040@1546518423301/Architecture-of-a-Convolutional-Neural-Network-CNN-The-traditional-CNN-structure-is.png', use_container_width=True, caption='Source: ResearchGate')
 
 # st.header('')
